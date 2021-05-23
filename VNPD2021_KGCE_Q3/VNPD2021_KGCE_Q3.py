@@ -1,7 +1,7 @@
 #import
 import math
 
-#Print Factors of the fiven number
+#Print Factors of the given number
 def factors(n):
    print("The factors of",n,"are:")
    for i in range(1, n + 1):
