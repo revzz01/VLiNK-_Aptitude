@@ -24,7 +24,7 @@ def min(n, password):
 
     total = digit + lower + upper + special
 
-    if n < 6:
+    if n < 8:
         ans = n + total
         if ans < 8:
             final = total + (8 - ans)
